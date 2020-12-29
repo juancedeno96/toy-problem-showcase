@@ -30,8 +30,6 @@ export default class Sum extends Component {
                 <input onChange={(e)=>this.updateNumber2(e.target.value)} className="inputLine"/>
                 <button onClick={()=>this.add(this.state.number1,this.state.number2)} className="confirmationButton">Add</button>
                 <span className="resultsBox">Sum: {this.state.sum}</span>
-
-
             </div>
             
         )

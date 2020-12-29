@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 export default class FilterObject extends Component {
     render () {
         return (
-            <div className="puzzleBox filterObjectPB">
+            <div className="puzzleBox filterObjectPB" >
                 <h4>Filter Object</h4>
                 <span className="puzzleText">Original: {JSON.stringify(this.state.pokemon, null, 10) }</span>
                 <input className="inputLine" onChange={ (e)=> this.handleChange(e.target.value)}/>

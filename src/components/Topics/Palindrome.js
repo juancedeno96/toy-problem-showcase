@@ -33,5 +33,5 @@ export default class Palindrome extends Component {
        } else {
            this.setState({palindrome: 'false'})
        }
-   }
+     }
 }

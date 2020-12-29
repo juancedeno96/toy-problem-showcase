@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 export default class FilterString extends Component {
     render() {
         return (
-            <div className = "puzzleBox filterStringPB">
+            <div className = "puzzleBox filterStringPB" >
                 <h4>Filter String</h4>
                 <span className = "puzzleText">Songs: {JSON.stringify(this.state.songs, null, 10)}</span>
                 <input className = "inputLine" onChange = {(e)=> this.handleChange(e.target.value)}/>

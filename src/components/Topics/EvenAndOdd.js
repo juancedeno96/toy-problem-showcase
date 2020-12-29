@@ -28,7 +28,7 @@ export default class EvenAndOdd extends Component {
                odds.push(parseInt(arr[i]))
            }
        }
-        this.setState({evenArray: evens, oddArray: odds})
+        this.setState({evenArray:  evens, oddArray: odds})
     }
 
     constructor() {
